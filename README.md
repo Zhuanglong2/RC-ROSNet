@@ -1,5 +1,5 @@
 # RC-ROSNet
-### **RC-ROSNet: Fusing 3D Radar Range-Angle Heat Maps and Camera Images for Radar Object Segmen-tation**
+### **RC-ROSNet: Fusing 3D Radar Range-Angle Heat Maps and Camera Images for Radar Object Segmentation**
 
 **by Long Zhuang, Taihong Yang, and Yiqing Yao**
 
