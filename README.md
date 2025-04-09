@@ -8,7 +8,7 @@
 0. Clone the repo:
 
 ```bash
-$ git clone https://github.com/Zhuanglong2/RC-ROSNet-main.git
+$ git clone https://github.com/Zhuanglong2/RC-ROSNet.git
 ```
 
 1. Create a conda environment using:
