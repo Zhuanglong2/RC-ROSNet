@@ -56,7 +56,7 @@ $ cd $ROOT/TransRadar/mvrss/
 $ python -u test.py --cfg $ROOT/RC-ROSNet-main/mvrss/logs/carrada/RC-RODNet/RC-RODNet_3/config.json
 ```
 
-Important note:
+## Important note:
 
 The pre-trained weights provided were obtained using an NVIDIA GTX 3060Ti GPU. Due to the significant variance in radar data observed across different hardware platforms, we recommend that researchers perform re-evaluation on their own systems for fairness.
 
