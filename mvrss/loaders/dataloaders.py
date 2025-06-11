@@ -1,6 +1,6 @@
 """Classes to load Carrada dataset"""
 import os
-
+os.environ["OPENCV_LOG_LEVEL"] = "SILENT"
 import cv2
 import numpy as np
 from skimage import transform
