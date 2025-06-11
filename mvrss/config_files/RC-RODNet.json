@@ -25,7 +25,7 @@
  "numpy_seed": 40,
  "version": 0,
  "device": "cuda",
- "custom_loss": "CAObjectLoss",
+ "custom_loss": "CAObjectLoss2",
  "transformations": "hflip,vflip",
  "norm_type": "tvt",
  "shuffle": true,
