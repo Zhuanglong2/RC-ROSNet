@@ -8,6 +8,8 @@
  "loss_weight": [0.6, 1, 10, 5],
  "use_ad": true,
  "annot_type": "dense",
+ "img_w_size": 256,
+ "img_h_size": 300,
  "w_size": 256,
  "h_size": 256,
  "nb_classes": 4,
