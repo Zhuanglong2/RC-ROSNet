@@ -297,7 +297,7 @@ class Tester:
                                                                [np.mean(sub_loss) for sub_loss
                                                                 in ra_running_global_losses])
                 if nb_losses > 2:
-                    self.test_results['coherence_loss'] = coherence_running_losses.item()
+                    self.test_results['coherence_loss'] = np.mean(coherence_running_losses).item()
 
                 self.test_results['global_acc'] = (1 / 2) * (self.test_results['range_doppler']['acc'] +
                                                              self.test_results['range_angle']['acc'])
