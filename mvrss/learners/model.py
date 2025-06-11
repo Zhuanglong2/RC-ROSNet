@@ -389,7 +389,14 @@ class Model(nn.Module):
                                                                     test_metrics['range_angle']['prec'],
                                                                     test_metrics['range_doppler']['miou'],
                                                                     test_metrics['range_angle']['miou']))
-
+                self.results['ra_train_loss'] = ra_train_loss.item()
+                self.results['train_loss'] = train_loss.item()
+                self.results['test_metrics'] = test_metrics
+                if test_metrics['range_angle']['miou'] > (best_test_miou):
+                    best_test_miou = test_metrics['range_angle']['miou']
+                    self._save_results()
+                print('best test miou', best_test_miou)
+                
             if nb_losses > 3:
                 self.results['coherence_train_loss'] = coherence_train_loss.item()
 
